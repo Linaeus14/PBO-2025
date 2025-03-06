@@ -13,11 +13,10 @@ import java.io.IOException;
 public class App {
     public static void main(String[] args) {
         // contoh penggunaan user-defined package Buku dan Pensil
-        buku myBook = new buku();
-        myBook.displayMessage();
+        buku.displayMessage(); //Static
 
         pensil myPen = new pensil();
-        myPen.displayMessage();
+        myPen.displayMessage(); //Non-Static
 
         // # INPUT
         // contoh penggunaan in-built package Scanner
