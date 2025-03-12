@@ -1,14 +1,15 @@
 // Kelas Mahasiswa di dalam paket model
 import model.Mahasiswa;
+import model.MataKuliah;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // Membuat objek dari kelas Mahasiswa
-        Mahasiswa mahasiswa1 = new Mahasiswa("Budi", 12345);
-        Mahasiswa mahasiswa2 = new Mahasiswa("Siti", 67890);
+        // Membuat objek dari kelas Mahasiswa dan Matakuliah
+        Mahasiswa mhs = new Mahasiswa("Budi", 12345);
+        MataKuliah matkul = new MataKuliah("MTK", 67890);
 
         // Menampilkan informasi mahasiswa
-        mahasiswa1.tampilkanInfo();
-        mahasiswa2.tampilkanInfo();
+        mhs.tampilkanInfo();
+        matkul.tampilkanInfo();
     }
 }
