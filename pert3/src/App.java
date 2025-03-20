@@ -1,5 +1,4 @@
 
-// Kelas Mahasiswa di dalam paket model
 import java.util.ArrayList;
 import java.util.Scanner;
 
