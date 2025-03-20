@@ -20,3 +20,10 @@ Penerapan pada modul 2:
 - class
 - objek
 - constructor
+
+## Pertemuan 3
+
+Penerapan pada modul 3:
+
+- access modifier
+- encapsulation
