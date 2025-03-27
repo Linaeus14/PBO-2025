@@ -10,6 +10,8 @@ public class Mahasiswa extends Orang {
     public Mahasiswa(String nama, int umur, String idMahasiswa) {
         super(nama, umur); // Memanggil konstruktor dari superclass (Orang)
         this.idMahasiswa = idMahasiswa;
+        this.tampilkanInfo();
+        super.tampilkanInfo();
     }
 
     // Getter dan Setter untuk idMahasiswa
@@ -22,7 +24,7 @@ public class Mahasiswa extends Orang {
     }
 
     // Metode untuk menampilkan detail Mahasiswa
-    public void tampilkanInfoMahasiswa() {
+    public void tampilkanInfo() {
         System.out.println("Nama: " + getNama());
         System.out.println("Umur: " + getUmur());
         System.out.println("ID Mahasiswa: " + idMahasiswa);

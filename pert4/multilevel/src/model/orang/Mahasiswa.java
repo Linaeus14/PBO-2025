@@ -4,7 +4,7 @@ import model.Orang;
 
 // Subclass
 public class Mahasiswa extends Orang {
-    protected String idMahasiswa;
+    private String idMahasiswa;
 
     // Konstruktor
     public Mahasiswa(String nama, int umur, String idMahasiswa) {

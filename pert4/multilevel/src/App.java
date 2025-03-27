@@ -19,7 +19,5 @@ public class App {
         AsistenDosen asistenDosen = new AsistenDosen(mahasiswa, "Pemrograman Java");
         System.out.println("\n=== Informasi Asisten Dosen ===");
         asistenDosen.tampilkanInfo();
-        asistenDosen.tampilkanInfoMahasiswa();
-        asistenDosen.tampilkanInfoAsistenDosen();
     }
 }

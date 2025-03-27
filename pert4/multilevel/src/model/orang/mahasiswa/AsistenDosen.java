@@ -11,10 +11,10 @@ public class AsistenDosen extends Mahasiswa {
         this.mataKuliah = mataKuliah;
     }
 
-    public void tampilkanInfoAsistenDosen() {
-        System.out.println("Nama: " + getNama());
-        System.out.println("Umur: " + getUmur());
-        System.out.println("ID Mahasiswa: " + idMahasiswa);
+    public void tampilkanInfo() {
+        System.out.println("Nama: " + super.getNama());
+        System.out.println("Umur: " + super.getUmur());
+        System.out.println("ID Mahasiswa: " + super.getIdMahasiswa());
         System.out.println("Mata Kuliah: " + mataKuliah);
     }
 }

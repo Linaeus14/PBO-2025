@@ -2,8 +2,8 @@ package model;
 
 // Superclass
 public class Orang {
-    protected String nama;
-    protected int umur;
+    private String nama;
+    private int umur;
 
     // Konstruktor
     public Orang(String nama, int umur) {
