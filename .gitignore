@@ -1,6 +1,6 @@
-*.class
-*.pdf
-*.pptx
 **/.history/
 **/.vscode/
 **/.bin/
+*.class
+*.pdf
+*.pptx
