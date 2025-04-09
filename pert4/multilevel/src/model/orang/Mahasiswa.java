@@ -2,7 +2,7 @@ package model.orang;
 
 import model.Orang;
 
-// Subclass
+// Subclass tingkat 1
 public class Mahasiswa extends Orang {
     private String idMahasiswa;
 

@@ -2,6 +2,7 @@ package model.orang.mahasiswa;
 
 import model.orang.Mahasiswa;
 
+// Subclass tingkat 2
 public class AsistenDosen extends Mahasiswa {
     private String mataKuliah;
 
