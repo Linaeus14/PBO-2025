@@ -2,9 +2,18 @@ package model;
 
 // Polimorfisme Statis
 public class Kalkulator {
+
     // Metode overload beda jumlah argumen
     public int tambah(int a, int b) {
         return a + b;
+    }
+
+    public int tambah(int a, double b) {
+        return a + (int) b;
+    }
+
+    public int tambah(double b, int a) {
+        return a + (int) b;
     }
 
     public int tambah(int a, int b, int c) {
