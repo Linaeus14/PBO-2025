@@ -1,6 +1,10 @@
 **/.history/
 **/.vscode/
-**/.bin/
+
+
+**/bin/
+**/lib/
+
 *.class
 *.pdf
 *.pptx

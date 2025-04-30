@@ -1,0 +1,9 @@
+JavaFX Compatibility
+
+JavaFX versions generally follow the latest Java version, but many are backward-compatible.
+
+JavaFX Version:	Compatible Java Versions:
+JavaFX 17	    Java 11–17
+JavaFX 19	    Java 11–19
+JavaFX 21	    Java 17–21
+JavaFX 22	    Java 22+ only
